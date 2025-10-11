@@ -189,7 +189,7 @@ export default function LandingPage() {
       <section id="features" className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12 space-y-4">
-            <h2 className="text-3xl md:text-4xl font-bold text-balance">Why Choose AgroFund</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-balance">Why Choose Chowvest</h2>
             <p className="text-lg text-muted-foreground">The smartest way to save for your household food needs</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -260,7 +260,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             <div className="space-y-4">
-              <h3 className="text-xl font-bold">🌾 AgroFund</h3>
+              <h3 className="text-xl font-bold">🌾 Chowvest</h3>
               <p className="text-gray-400 leading-relaxed">
                 Save small, eat well. Beat food inflation with smart savings for your household food needs.
               </p>

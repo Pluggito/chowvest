@@ -24,8 +24,8 @@ export function SavingsChart() {
   return (
     <Card className="p-6">
       <div className="space-y-2 mb-6">
-        <h3 className="text-xl font-semibold text-foreground">Savings Performance</h3>
-        <p className="text-sm text-muted-foreground">Your monthly savings growth</p>
+        <h3 className="text-xl font-semibold text-foreground">Food Progress</h3>
+        <p className="text-sm text-muted-foreground">Your monthly food savings growth</p>
       </div>
       <ChartContainer config={chartConfig} className="h-[300px] w-full">
         <AreaChart data={chartData}>

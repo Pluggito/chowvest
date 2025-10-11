@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card"
-import { Eye, TrendingUp } from "lucide-react"
+import { Eye, Wallet } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function WalletBalance() {
@@ -12,7 +12,7 @@ export function WalletBalance() {
         <div className="flex items-center justify-between mb-8">
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-lg bg-primary-foreground/20 flex items-center justify-center">
-              <TrendingUp className="w-5 h-5" />
+              <Wallet className="w-5 h-5" />
             </div>
             <span className="text-sm font-medium opacity-90">Available Balance</span>
           </div>

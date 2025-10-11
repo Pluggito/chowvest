@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Plus, ArrowUpRight, Repeat } from "lucide-react"
+import { Plus, ArrowUpRight, Repeat, Package } from "lucide-react"
 
 const actions = [
   {
@@ -14,8 +14,8 @@ const actions = [
     variant: "outline" as const,
   },
   {
-    label: "Transfer",
-    icon: Repeat,
+    label: "Request Delivery",
+    icon: Package,
     variant: "outline" as const,
   },
 ]
