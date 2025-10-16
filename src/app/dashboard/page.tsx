@@ -14,13 +14,14 @@ export default function DashboardPage() {
         <StatsCards />
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2">
-            <SavingsChart />
-          </div>
+            {/* /SavingsChart */}
+             <ActiveGoals />
+          </div> 
           <div>
             <QuickActions />
           </div>
         </div>
-        <ActiveGoals />
+       
       </div>
     </>
   )

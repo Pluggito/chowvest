@@ -32,7 +32,7 @@ export function WalletBalance() {
             <p className="text-xl font-semibold">₦180,450</p>
           </div>
           <div>
-            <p className="text-xs opacity-70 mb-1">Total Withdrawals</p>
+            <p className="text-xs opacity-70 mb-1">Total Market Spend</p>
             <p className="text-xl font-semibold">₦135,250</p>
           </div>
         </div>

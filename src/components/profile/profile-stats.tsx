@@ -3,7 +3,7 @@ import { Target, TrendingUp, Award, Calendar } from "lucide-react"
 
 const stats = [
   {
-    label: "Goals Completed",
+    label: "Harvests Completed",
     value: "12",
     icon: Target,
   },

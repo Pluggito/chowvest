@@ -13,10 +13,6 @@ export function WalletHeader() {
           <ArrowDownToLine className="w-4 h-4" />
           Deposit
         </Button>
-        <Button variant="outline" className="gap-2 bg-transparent">
-          <ArrowUpFromLine className="w-4 h-4" />
-          Withdraw
-        </Button>
       </div>
     </div>
   )

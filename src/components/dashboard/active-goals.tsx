@@ -17,12 +17,6 @@ const goals = [
     image: "/beans-sack.jpg",
   },
   {
-    name: "Maize Seeds (10kg)",
-    target: 25000,
-    current: 18750,
-    image: "/maize-seeds.jpg",
-  },
-  {
     name: "Garri (50kg)",
     target: 35000,
     current: 28000,
@@ -35,7 +29,7 @@ export function ActiveGoals() {
     <Card className="p-6">
       <div className="flex items-center justify-between mb-6">
         <div>
-          <h3 className="text-xl font-semibold text-foreground">Active Savings Goals</h3>
+          <h3 className="text-xl font-semibold text-foreground">Your Food Basket Goals</h3>
           <p className="text-sm text-muted-foreground mt-1">Track your progress toward your targets</p>
         </div>
         <Button size="sm" className="gap-2">

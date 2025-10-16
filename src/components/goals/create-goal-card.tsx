@@ -52,14 +52,6 @@ export function CreateGoalCard() {
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="monthly">Monthly Contribution</Label>
-          <div className="relative">
-            <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground">₦</span>
-            <Input id="monthly" type="number" placeholder="0.00" className="pl-8" />
-          </div>
-        </div>
-
-        <div className="space-y-2">
           <Label htmlFor="deadline">Target Date</Label>
           <Input id="deadline" type="date" />
         </div>
@@ -69,7 +61,7 @@ export function CreateGoalCard() {
 
       <div className="mt-6 p-4 rounded-lg bg-accent/30">
         <p className="text-xs text-muted-foreground text-center">
-          Set realistic goals and contribute regularly to achieve your agricultural savings targets
+         Set your food goals, save steadily, and grow your Chowvest basket.
         </p>
       </div>
     </Card>

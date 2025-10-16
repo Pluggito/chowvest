@@ -13,7 +13,7 @@ const goals = [
     image: "/rice-bag.png",
     category: "Foodstuff",
     deadline: "Jan 15, 2025",
-    monthlyContribution: 8000,
+    topUp: 8000,
   },
   {
     id: 2,
@@ -23,27 +23,17 @@ const goals = [
     image: "/beans-sack.jpg",
     category: "Foodstuff",
     deadline: "Feb 1, 2025",
-    monthlyContribution: 12000,
+    topUp: 12000,
   },
   {
     id: 3,
-    name: "Maize Seeds (10kg)",
-    target: 25000,
-    current: 18750,
-    image: "/maize-seeds.jpg",
-    category: "Cash Crop",
-    deadline: "Jan 30, 2025",
-    monthlyContribution: 5000,
-  },
-  {
-    id: 4,
     name: "Garri (50kg)",
     target: 35000,
     current: 28000,
     image: "/garri-bag.jpg",
     category: "Foodstuff",
     deadline: "Feb 10, 2025",
-    monthlyContribution: 7000,
+    topUp: 7000,
   },
 ]
 
@@ -93,9 +83,9 @@ export function GoalsList() {
 
                 <div className="flex items-center justify-between pt-2 border-t border-border">
                   <div>
-                    <p className="text-xs text-muted-foreground">Monthly Contribution</p>
+                    <p className="text-xs text-muted-foreground">Regular Top-Up</p>
                     <p className="text-sm font-semibold text-foreground">
-                      ₦{goal.monthlyContribution.toLocaleString()}
+                      ₦{goal.topUp.toLocaleString()}
                     </p>
                   </div>
                   <Button size="sm" className="gap-2">

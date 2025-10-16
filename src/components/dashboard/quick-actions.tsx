@@ -9,11 +9,6 @@ const actions = [
     variant: "default" as const,
   },
   {
-    label: "Withdraw",
-    icon: ArrowUpRight,
-    variant: "outline" as const,
-  },
-  {
     label: "Request Delivery",
     icon: Package,
     variant: "outline" as const,
