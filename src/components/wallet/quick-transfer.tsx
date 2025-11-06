@@ -16,7 +16,7 @@ export function QuickTransfer() {
           <Label htmlFor="goal">Transfer to Basket</Label>
           <Select>
             <SelectTrigger id="goal">
-              <SelectValue placeholder="Select a goal" />
+              <SelectValue placeholder="Select a basket" />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="rice">50kg Bag of Rice</SelectItem>
