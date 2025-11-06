@@ -13,7 +13,7 @@ export function QuickTransfer() {
 
       <div className="space-y-4">
         <div className="space-y-2">
-          <Label htmlFor="goal">Transfer to Goal</Label>
+          <Label htmlFor="goal">Transfer to Basket</Label>
           <Select>
             <SelectTrigger id="goal">
               <SelectValue placeholder="Select a goal" />
